@@ -9,3 +9,6 @@ Hopefully Microsoft patches this but in the mean time here is a tool that will h
 After Microsoft patches this you can run the tool again and remove the firewall rule. 
 Sharing is caring! Please share this work! 
 If you have any ideas on how to add more to this tool you are more than welcome to. 
+
+Article that goes into detail
+http://virusguides.com/regsvr32-hack-bypasses-windows-applocker-protection/
