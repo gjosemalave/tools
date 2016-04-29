@@ -1,5 +1,6 @@
 # tools
 Tools that help everyone:
+Regsvr32 Hack Bypasses Windows AppLocker Protection
 
 This tool creates an outbound firewall rule that blockes the regsvr32.exe from calling out a Url that can be used to
 execute an external script. 
