@@ -59,23 +59,28 @@ IF "%PROCESSOR_ARCHITECTURE%"=="AMD64" (GOTO :disable64) ELSE (GOTO :disable32)
 @NETSH advfirewall firewall add rule name="Block Regsvr32" dir=out program="%systemroot%\System32\regsvr32.exe" action=Block enable=yes
 ECHO Firewall Rule Block Regsvr32 blocked!
 ECHO You can enable this and once Microsoft decides to patch you can remove it with this tool as well.
-Pause > GOTO EOF
+TIMEOUT /T 10 /NOBREAK
+EXIT
 
 :disable32
 @NETSH advfirewall firewall delete rule name="Block Regsvr32"
 ECHO Firewall Rule Block Regsvr32 Removed!
 ECHO You can enable this and once Microsoft decides to patch you can remove it with this tool as well.
-Pause > GOTO EOF
+TIMEOUT /T 10 /NOBREAK
+EXIT
 
 :enable64
 @NETSH advfirewall firewall add rule name="Block Regsvr64" dir=out program="%systemroot%\SysWoW64\regsvr32.exe" action=Block enable=yes
 ECHO Firewall Rule Block Regsvr64 blocked!
 ECHO You can enable this and once Microsoft decides to patch you can remove it with this tool as well.
-Pause > GOTO EOF
+TIMEOUT /T 10 /NOBREAK
+EXIT
 
 :disable64
 @NETSH advfirewall firewall delete rule name="Block Regsvr64"
 ECHO Firewall Rule Block Regsvr64 Removed!
 ECHO You can enable this and once Microsoft decides to patch you can remove it with this tool as well.
-Pause > GOTO EOF
+TIMEOUT /T 10 /NOBREAK
+EXIT
+
 :: Script Ends here
