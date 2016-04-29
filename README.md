@@ -11,3 +11,5 @@ If you have any ideas on how to add more to this tool you are more than welcome 
 
 Article that goes into detail
 http://virusguides.com/regsvr32-hack-bypasses-windows-applocker-protection/
+
+Works in Win7,Win8 and WIn10 on both 32bit and 64 bit systems.
