@@ -1,7 +1,8 @@
 # tools
-ISSUE: Regsvr32 Hack Bypasses Windows AppLocker Protection
+ISSUE: Regsvr32 Hack Bypasses Windows AppLocker Protection 
+(Regsvr32 can execute VBScript and JScript files via a URL to a remote host)
 
-This tool creates an outbound firewall rule that blockes the regsvr32.exe from calling out a Url that can be used to
+This tool creates an outbound firewall rule that blocks the regsvr32.exe from opening a file via a URL that can be used to
 execute an external script. 
 
 Hopefully Microsoft patches this but in the mean time here is a tool that will help. 
