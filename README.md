@@ -25,15 +25,25 @@ https://youtu.be/t8SpYn5GkHA
 Update: 5/10/2016 Microsoft Update
 
 3155533 MS16-051: Cumulative Security update for Internet Explorer: May 10, 2016
+
 3155538 MS16-052: Cumulative Security update for Microsoft Edge: May 10, 2016
+
 3156754 MS16-055: Security update for Microsoft graphics component: May 10, 2016
+
 3156761 MS16-056: Security update for Windows Journal: May 10, 2016
+
 3156987 MS16-057: Security update for Windows shell: May 10, 2016
+
 3154846 MS16-060: Security update for Windows kernel: May 10, 2016
+
 3155520 MS16-061: Security update to RPC: May 10, 2016
+
 3158222 MS16-062: Security update for kernel mode drivers: May 10, 2016
+
 3155527 MS16-064: Security update to Schannel: May 10, 2016
+
 3156757 MS16-065: Security update for the .NET Framework: May 10, 2016
+
 3155451 MS16-066: Security update to virtual secure mode: May 10, 2016
 
 https://support.microsoft.com/en-us/kb/3156421
